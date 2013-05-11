@@ -1,0 +1,41 @@
+
+
+html, body {
+	margin:0;
+	padding:0;
+	background:#333;
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+.container {
+	width:820px;
+}
+.button {
+	float:left;
+	margin: 10px;
+	height:180px;
+	width:180px;
+	border: 2pt solid white;
+	border-radius: 4px;
+	background:#333;
+	color:white;
+	text-align: center;
+}
+.button.active:nth-child(6n) {
+	background:#f00;
+}
+.button.active:nth-child(6n+1) {
+	background:#ff0;
+}
+.button.active:nth-child(6n+2) {
+	background:#0f0;
+}
+.button.active:nth-child(6n+3) {
+	background:#0ff;
+}
+.button.active:nth-child(6n+4) {
+	background:#00f;
+}
+.button.active:nth-child(6n+5) {
+	background:#f0f;
+}
